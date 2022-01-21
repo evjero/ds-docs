@@ -1,0 +1,38 @@
+{
+	"name": "doc-app",
+	"version": "1.0.0",
+	"description": "Storybook for Design Systems",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 0",
+		"storybook": "start-storybook -p 6006",
+		"build-storybook": "build-storybook"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/evjero/ds-docs.git"
+	},
+	"author": "epsnaught (https://github.com/epsnaught)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/evjero/ds-docs/issues"
+	},
+	"homepage": "https://github.com/evjero/ds-docs#readme",
+	"devDependencies": {
+		"@babel/core": "^7.16.10",
+		"@storybook/addon-a11y": "^6.4.13",
+		"@storybook/addon-actions": "^6.4.13",
+		"@storybook/addon-docs": "^6.4.13",
+		"@storybook/addon-essentials": "^6.4.13",
+		"@storybook/addon-links": "^6.4.13",
+		"@storybook/addon-measure": "^6.4.13",
+		"@storybook/addon-storyshots": "^6.4.13",
+		"@storybook/react": "^6.4.13",
+		"babel-loader": "^8.2.3",
+		"typescript": "^4.5.5"
+	},
+	"dependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	}
+}
